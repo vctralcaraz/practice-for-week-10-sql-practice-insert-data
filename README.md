@@ -9,6 +9,9 @@ Create a new project folder called __sql-practice__. `cd` into this folder.
 
 Run SQLite on a database called __practice.db__.
 
+You may want to create a `.sql` file that you can use in the following steps
+to formulate the SQL statements before running it in the SQLite CLI.
+
 ## Step 1: Create table
 
 Run the following SQL Command to create a table called `friends`.
@@ -43,7 +46,8 @@ Now, practice inserting multiple rows in a single SQL command.
 | Donna      | Noble     |
 | River      | Song      |
 
-Use `SELECT * FROM friends;` to verify that all 5 rows are in the friends table:
+Use `SELECT * FROM friends;` to verify that all 4 rows plus the 1 row added
+in the previous step are in the friends table.
 
 ## Step 4: Debugging error with `INSERT`
 
